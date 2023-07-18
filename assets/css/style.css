@@ -1,0 +1,19 @@
+
+
+body {
+    background-image: linear-gradient(to bottom, #fefedf, #dcf1ca, #b3e5be, #81d8bc, #3ccac3);
+    background-repeat: no repeat;
+    margin:  8px;
+    height: 100vh;
+} 
+
+.btn btn-primary {
+    position : fixed
+}
+.template{
+    margin-right: 25px;
+}
+
+/* main{
+    overflow-y:auto
+} */
