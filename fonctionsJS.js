@@ -22,3 +22,11 @@ formInput.addEventListener("submit", (e) => {
   taskInput.value = "";
 });
 // local storage
+
+
+
+//delete all
+
+//.addEventListener("click", (e)=>{
+//    localStorage.clear()
+//})
