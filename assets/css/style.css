@@ -1,19 +1,31 @@
-
-
 body {
     background-image: linear-gradient(to bottom, #fefedf, #dcf1ca, #b3e5be, #81d8bc, #3ccac3);
     background-repeat: no repeat;
+    background-size: cover;
     margin:  8px;
     height: 100vh;
+    
 } 
-
-.btn btn-primary {
-    position : fixed
+main{
+    overflow-y:scroll;
+    max-height: 250px;
 }
+
 .template{
     margin-right: 25px;
 }
 
-/* main{
-    overflow-y:auto
-} */
+li{
+   list-style: none; 
+}
+
+#deleteBtnAll{
+    position : absolute;
+    bottom:60px;
+
+}
+#validateTasks{
+    position:fixed;
+    overflow-y:scroll;
+    max-height: 250px;
+}
